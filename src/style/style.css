@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(33, 37, 41);
+  color: #fff;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: rgb(58, 45, 32);
+  color: #fff;
+}
+
+.image {
+  width: 124px;
+}
+
+#project {
+  background-color: rgb(58, 45, 32);
+}
+
+.card {
+  color: #000;
+}
+
+footer {
+  background-color: #273036;
+}
+
+footer a {
+  color: #fff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}

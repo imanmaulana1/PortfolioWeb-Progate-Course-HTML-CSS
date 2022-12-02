@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  font-family: verdana, Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+#navbar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(54, 54, 54);
+}
+
+.navbar-logo {
+  flex: 1;
+}
+
+.navbar-list {
+  flex: 3;
+  display: flex;
+}
+
+#navbar-logo-header {
+  color: #fff;
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+
+.navbar-list-ul {
+  display: flex;
+  justify-content: start;
+  margin-top: 1%;
+  flex: 2;
+}
+
+.navbar-list-ul li {
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+.navbar-list-ul a {
+  text-decoration: none;
+  color: rgb(132, 132, 132);
+}
+
+#icon {
+  flex: auto;
+  text-align: end;
+  display: none;
+}
+
+#icon {
+  color: white;
+}
+
+.top-wrapper-content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-wrapper-content-img {
+  width: 300px;
+  height: 300px;
+}
+
+.top-wrapper-content-header {
+  font-size: 100px;
+  color: rgb(54, 54, 54);
+  padding-top: 10%;
+  padding-bottom: 2%;
+}
+
+.titik {
+  color: rgb(249, 216, 1);
+}
+
+.top-wrapper-content-text {
+  color: rgb(132, 132, 132);
+  font-size: 40px;
+  padding-bottom: 1%;
+}
+
+#about {
+  background-color: rgb(229, 226, 226);
+  text-align: center;
+}
+
+.about-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.about-content-header {
+  margin-bottom: 20px;
+}
+
+#project {
+  text-align: center;
+  padding: 50px;
+}
+
+.project-container {
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-evenly;
+}
+.project-container-img {
+  width: 300px;
+  height: 300px;
+}
+
+#form {
+  background-color: rgb(229, 226, 226);
+  padding: 50px;
+  text-align: center;
+}
+
+.form-header {
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+input {
+  border-radius: 5px;
+  border-color: #fff;
+  margin-bottom: 3%;
+}
+
+input[type="email"] {
+  height: 30px;
+}
+input[type="text"] {
+  height: 70px;
+}
+
+input[type="submit"] {
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 90);
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(255, 255, 30);
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(54, 54, 54);
+}
+
+#footer-logo-header {
+  color: #fff;
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+
+.footer-logo {
+  flex: 1;
+}
+
+.footer-list {
+  flex: auto;
+  text-align: end;
+}
+
+.footer-list li {
+  list-style-type: none;
+  color: rgb(132, 132, 132);
+  font-size: 12px;
+  margin-bottom: 5px;
+}

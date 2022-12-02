@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Case Study DOM Manipulation</title>
+  </head>
+  <body>
+    <h1>Get a FizzBuzz Results!</h1>
+    <label>Type a number:</label>
+    <input type="number" id="number" />
+    <button type="button" onclick="cetak()">Click here!</button>
+    <hr />
+    <p id="result"></p>
+
+    <script>
+      function cetak() {
+        var number = document.getElementById("number").value;
+        if (number % 5 == 0 && number % 3 == 0 && number > 0) {
+          document.getElementById("result").style.color = "black";
+          document.getElementById("result").innerHTML = "FizzBuzz";
+        } else if (number % 5 == 0 && number > 0) {
+          document.getElementById("result").style.color = "black";
+          document.getElementById("result").innerHTML = "Buzz";
+        } else if (number % 3 == 0 && number > 0) {
+          document.getElementById("result").style.color = "black";
+          document.getElementById("result").innerHTML = "Fizz";
+        } else if (number <= 0) {
+          document.getElementById("result").style.color = "red";
+          document.getElementById("result").innerHTML = "Invalid input";
+        } else {
+          document.getElementById("result").style.color = "black";
+          document.getElementById("result").innerHTML = number;
+        }
+        console.log(number);
+      }
+    </script>
+  </body>
+</html>

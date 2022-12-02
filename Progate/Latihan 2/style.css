@@ -1,0 +1,217 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Lucida Grande";
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+header{
+	background-color: rgba(34, 49, 52, 0.9);
+	height: 65px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+
+.container{
+	width:  1170px;
+	margin: 0 auto;
+}
+
+.header-left{
+	float: left;
+}
+
+.header-right{
+	float: right;
+}
+
+.header-left .image{
+	width: 124px;
+	margin: 20px 0;
+}
+
+.header-right .login{
+	color: white;
+	height: 65px;
+	display: block;
+	padding: 0 25px;
+	line-height: 65px;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.login:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+	transition: all 0.5s;
+}
+
+.top-wrapper{
+	background-image: url(https://prog-8.com/images/html/advanced/top.png);
+	background-size: cover;
+	padding-top: 180px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.container h1{
+	font-size: 45px;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	opacity: 0.7;
+}
+
+.top-wrapper .container{
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto ;
+	margin-right: auto;
+	color: white;
+}
+
+.container p{
+	margin-bottom: 20px;
+	line-height: 3px;
+	text-align: center;
+	opacity: 0.7;
+	margin-bottom: 20px;
+}
+
+.btn-wrapper{
+	margin-bottom: 10px;
+}
+
+.btn {
+	display: inline-block;
+	color: white;
+	border-radius: 4px;
+	opacity: 0.8;
+	padding: 12px 24px;
+}
+
+.email {
+	background-color: #239b76;
+}
+
+.facebook {
+	background-color: #3b5998;
+}
+
+.twitter {
+	background-color: #55acee;
+}
+
+.btn-wrapper p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.btn:hover{
+	opacity: 1;
+}
+
+.fa{
+	margin-right: 5px
+}
+
+.lesson-wrapper {
+	height: 500px;
+	padding-bottom: 80px;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+.heading {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	color: #5f5d60;
+}
+
+.heading h2 {
+	font-weight: normal;
+}
+
+.lesson {
+	float: left;
+	width: 25%;
+}
+
+.lesson-icon{
+	position: relative;
+}
+
+.lesson-icon p{
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	color: white;
+	opacity: 1;
+}
+
+.lesson .txt-contents{
+	width: 80%;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 15px;
+	line-height: 20px;
+	color: #b3aeb5;
+	opacity: 1;
+}
+
+.message-wrapper{
+	text-align: center;
+}
+
+.container .title{
+	text-align: center;
+	color: #5f5d60;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.message{
+	background-color: #5dca88;
+	opacity: 0.8;
+	border-radius: 4px;
+	padding: 15px 40px;
+	box-shadow: 0 7px #1a7940;
+	margin-bottom: 80px;
+}
+
+.message:hover{
+	cursor: pointer;
+	opacity: 1;
+}
+.message:active{
+	position: relative;
+	top: 7px;
+	box-shadow: none;
+}
+
+footer img {
+	width: 125px;
+}
+
+footer p {
+	color: #b3aeb5;
+	font-size: 12px;
+	width:  170px;;
+}
+
+footer {
+	padding-top: 30px;
+	border-top: 1px solid #eee;
+}

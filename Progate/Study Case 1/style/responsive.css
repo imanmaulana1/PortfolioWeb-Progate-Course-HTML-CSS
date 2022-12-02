@@ -1,0 +1,138 @@
+@media all and (max-width: 1024px) {
+  .navbar-logo {
+    flex: 1;
+  }
+  #navbar-logo-header {
+    letter-spacing: 10px;
+    font-size: 15px;
+  }
+  .navbar-list-ul li {
+    font-size: 12px;
+  }
+  .top-wrapper-content-header {
+    font-size: 70px;
+  }
+  .top-wrapper-content-text {
+    font-size: 30px;
+  }
+  .top-wrapper-content-img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* Tablet */
+@media all and (max-width: 1000px) {
+  #icon {
+    display: none;
+  }
+  #navbar-logo-header {
+    letter-spacing: 10px;
+    font-size: 15px;
+  }
+  .navbar-logo {
+    flex: 2;
+  }
+  .navbar-list {
+    flex: 5;
+    justify-content: end;
+  }
+  .navbar-list-ul li {
+    margin-right: 9%;
+    font-size: 10px;
+  }
+  .about-content {
+    font-size: 18px;
+  }
+  .project-container-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  form {
+    width: 80%;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .navbar-list-ul {
+    display: none;
+  }
+  #navbar-logo-header {
+    letter-spacing: 10px;
+    font-size: 15px;
+  }
+  .navbar-logo {
+    flex: 9;
+  }
+
+  .navbar-list {
+    flex: auto;
+  }
+
+  #icon {
+    display: block;
+  }
+  .top-wrapper-content-header {
+    font-size: 30px;
+  }
+  .top-wrapper-content-text {
+    font-size: 15px;
+  }
+  .top-wrapper-content-img {
+    width: 100px;
+    height: 100px;
+  }
+  .about-container {
+    padding: 20px;
+  }
+  .about-content {
+    font-size: 10px;
+  }
+  .project-container-img {
+    width: 280px;
+    height: 280px;
+  }
+  .project-container {
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+
+  .project-container-satu {
+    flex: 1;
+    padding: 10% 0;
+  }
+  .project-container-dua {
+    flex: 1;
+    padding: 10% 0;
+  }
+  .project-container-tiga {
+    flex: 1;
+    padding: 10% 0;
+  }
+  .project-container-label {
+    font-size: 12px;
+  }
+  .project-header {
+    font-size: 15px;
+  }
+  form {
+    width: 100%;
+  }
+  #footer-logo-header {
+    font-size: 15px;
+  }
+  .footer-logo {
+    flex: 4;
+  }
+}
+
+@media all and (max-width: 400px) {
+  #footer-logo-header {
+    font-size: 15px;
+  }
+  .footer-logo {
+    flex: 8;
+  }
+}
