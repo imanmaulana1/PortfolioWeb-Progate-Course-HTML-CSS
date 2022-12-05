@@ -1,5 +1,5 @@
 # Progate-Course-HTML-CSS
 
-Portfolio - Progate HTML & CSS courses
+Portfolio ini dibuat sebagai hasil pembelajaran selama mengikuti course di Progate 
 
 https://imanmaulana1.github.io/PortfolioWeb-Progate-Course-HTML-CSS/
