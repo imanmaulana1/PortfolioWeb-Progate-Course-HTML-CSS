@@ -44,6 +44,8 @@ Case5: DOM FizzBuzz Logic dengan ketentuan
 #
 #
 # Other
-- ![Frame 4 (1)](https://user-images.githubusercontent.com/108262868/207023356-5faca693-da25-40c0-876c-b2be0ea96884.png)
-- ![Certificate Coder of the Month Novemeber 2022_page-0001 1](https://user-images.githubusercontent.com/108262868/207023350-eae8e6c2-eba4-4bb2-b6cf-aef27ab373f6.png)
+- Sertifikat
+![Frame 4 (2)](https://user-images.githubusercontent.com/108262868/207023735-85c3e183-3dbc-40b5-88b3-5f17ae88e3b7.png)
 
+
+![Certificate Coder of the Month Novemeber 2022_page-0001 1 (1)](https://user-images.githubusercontent.com/108262868/207023728-eb586308-d1a6-4e72-b007-f6f07af16710.png)
